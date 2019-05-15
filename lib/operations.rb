@@ -3,7 +3,7 @@ if speed > 60
   return true
 else if speed < 40 
   return true 
-else if 40 < speed < 60
+else if speed < 60 && speed > 40
   return false
 end
 end
